@@ -1,4 +1,4 @@
-import InstrumentFamilies from'./models/instrument_families.js';
+import InstrumentFamilies from './models/instrument_families.js';
 import SelectView from './views/select_view.js';
 import InstrumentFamilyView from './views/instrument_family_view.js';
 import data from './data/instrument_families.js';

@@ -20,4 +20,4 @@ class InstrumentFamilies {
   };
 };
 
-module.exports = InstrumentFamilies;
+export default InstrumentFamilies;

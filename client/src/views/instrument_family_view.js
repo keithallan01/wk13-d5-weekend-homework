@@ -47,4 +47,5 @@ class InstrumentFamilyView{
     return list;
   };
 };
-module.exports = InstrumentFamilyView;
+
+export default InstrumentFamilyView;
