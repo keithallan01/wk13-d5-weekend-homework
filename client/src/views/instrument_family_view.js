@@ -6,10 +6,6 @@ class InstrumentFamilyView{
     this.container = container;
   }
 
-  // const InstrumentFamilyView = function (container) {
-  //   this.container = container;
-  // };
-
   bindEvents() {
     PubSub.subscribe('InstrumentFamilies:selected-family-ready', (evt) => {
       const instrumentFamily = evt.detail;

@@ -1,6 +1,6 @@
-const express = require('express');
+import express 'express';
 const app = express();
-const path = require('path');
+import path 'path';
 
 const publicPath = path.join(__dirname, '../client/public');
 app.use(express.static(publicPath));

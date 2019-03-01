@@ -5,11 +5,6 @@ class InstrumentFamilies {
     this.data = data;
   }
 
-
-  // const InstrumentFamilies = function (data) {
-  //   this.data = data;
-  // };
-
   bindEvents() {
     PubSub.publish('InstrumentFamilies:data-ready', this.data);
 
