@@ -12,4 +12,5 @@ const PubSub = {
   }
 };
 
-module.exports = PubSub;
+export {PubSub as default};
+// module.exports = PubSub;
